@@ -24,6 +24,7 @@
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		1D40FC9A21EC594C00EEF4F7 /* libmyMathLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D40FC9421EC583700EEF4F7 /* libmyMathLib.a */; };
+		1DBD8BB521F587BA004CD4C3 /* App.js in Resources */ = {isa = PBXBuildFile; fileRef = 1DBD8BB421F587BA004CD4C3 /* App.js */; };
 		1DF92D3821EC0039005A4266 /* MyObjcClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF92D3721EC0039005A4266 /* MyObjcClass.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -352,9 +353,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = myLib/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = myLib/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		1D40FC2921EC4C6600EEF4F7 /* Cfuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cfuncs.h; sourceTree = "<group>"; };
 		1D40FC8921EC582B00EEF4F7 /* myMathLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = myMathLib.xcodeproj; path = myMathLib/myMathLib.xcodeproj; sourceTree = "<group>"; };
 		1D40FC8F21EC583700EEF4F7 /* myMathLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = myMathLib.xcodeproj; path = myMathLib/myMathLib.xcodeproj; sourceTree = "<group>"; };
+		1DBD8BB421F587BA004CD4C3 /* App.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = App.js; path = ../../App.js; sourceTree = "<group>"; };
 		1DF92D1121EC0039005A4266 /* MyObjcClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObjcClass.h; sourceTree = "<group>"; };
 		1DF92D3721EC0039005A4266 /* MyObjcClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObjcClass.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* myLib-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myLib-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -512,7 +513,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				1D40FC2921EC4C6600EEF4F7 /* Cfuncs.h */,
 			);
 			name = myLib;
 			sourceTree = "<group>";
@@ -554,6 +554,14 @@
 				1D40FC9421EC583700EEF4F7 /* libmyMathLib.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1DBD8BB121F5871E004CD4C3 /* React Native */ = {
+			isa = PBXGroup;
+			children = (
+				1DBD8BB421F587BA004CD4C3 /* App.js */,
+			);
+			path = "React Native";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -614,6 +622,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1DBD8BB121F5871E004CD4C3 /* React Native */,
 				1D40FC8921EC582B00EEF4F7 /* myMathLib.xcodeproj */,
 				13B07FAE1A68108700A75B9A /* myLib */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -1113,6 +1122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1DBD8BB521F587BA004CD4C3 /* App.js in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
